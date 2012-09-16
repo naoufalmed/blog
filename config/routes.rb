@@ -1,4 +1,6 @@
 Blog::Application.routes.draw do
+  resources :media
+
   resources :authors
 
   resources :articles
